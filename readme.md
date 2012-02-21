@@ -34,6 +34,6 @@ return cookie value or null if not set
 *name* - cookie name
 
 
-cookie.isEnabled()
+`cookie.isEnabled();`
 
 true or false
