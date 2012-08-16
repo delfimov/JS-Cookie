@@ -16,7 +16,7 @@ var cookie = {
 		if (e !== undefined) {
 			var t = new Date();
 			t.setTime(t.getTime()+(e*24*60*60*1000));
-			c+= 'expires='+t.toGMTString()+'; ';
+			c+= 'expires='+t.toUTCString()+'; ';
 		}
 		c += (p === undefined) ? 'path=/;' : 'path='+p+'; ';
 		c += (d === undefined) ? '' : 'domain='+d+'; '
