@@ -1,7 +1,7 @@
 Cookie
 ======
 
-cookie javascript library
+Javascript Cookie library
 
 
 Usage
