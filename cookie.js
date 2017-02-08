@@ -19,7 +19,7 @@ var cookie = {
 			c+= 'expires='+t.toUTCString()+'; ';
 		}
 		c += (p === undefined) ? 'path=/;' : 'path='+p+'; ';
-		c += (d === undefined) ? '' : 'domain='+d+'; '
+		c += (d === undefined) ? '' : 'domain='+d+'; ';
 		c += (s === true) ? 'secure; ' : '';
 		document.cookie = c;
 	},

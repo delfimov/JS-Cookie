@@ -1,0 +1,25 @@
+{
+  "name": "js-cookie",
+  "version": "1.0.0",
+  "description": "Basic javascript cookie library",
+  "license": "MIT",
+  "homepage": "https://github.com/Groozly/JS-Cookie#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Groozly/JS-Cookie.git"
+  },
+  "scripts": {
+  },
+  "author": {
+    "email": "elfimov@gmail.com",
+    "name": "Dmitry Elfimov",
+    "url": "http://www.elfimov.ru/"
+  },
+  "bugs": {
+    "url": "https://github.com/Groozly/JS-Cookie/issues"
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
