@@ -25,9 +25,9 @@ var cookie = {
 	},
 
 	get: function(k) {
-		var v = '';
-		var ke = k+ '=';
-		var c = document.cookie.split(';');
+		var v = '',
+			ke = k+ '=',
+			c = document.cookie.split(';');
 		for (var i = 0, l = c.length; i < l; i++) {
 			while (c[i].charAt(0) === ' ') {
 				c[i] = c[i].substring(1);
@@ -43,15 +43,15 @@ var cookie = {
 		cookie.set(k, '', -1);
 	},
 
-	isEnabled: function() {
-		var e = (navigator.cookieEnabled) ? true : false;
-		var t = '_test';
-		if (typeof navigator.cookieEnabled == "undefined" && !e) {
-			cookie.set(t, t);
-			var e = (cookie.get(t) === t) ? true : false;
-			cookie.remove(t);
-		}
-		return e;
-	}
+    isEnabled: function() {
+        var e = !!(navigator.cookieEnabled),
+            t = '_test';
+        if (typeof navigator.cookieEnabled == 'undefined' && !e) {
+            cookie.set(t, t);
+            e = (cookie.get(t) === t);
+            cookie.remove(t);
+        }
+        return e;
+    }
 
 };
