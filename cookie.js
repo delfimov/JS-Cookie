@@ -1,6 +1,6 @@
 /*
  * cookie javascript library 
- * https://github.com/Groozly/JS-Cookie
+ * https://github.com/delfimov/JS-Cookie
  *
  * Copyright (c) 2011 by Dmitry Elfimov
  * Released under the MIT License.
