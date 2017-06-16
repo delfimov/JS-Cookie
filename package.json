@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Basic javascript cookie library",
   "license": "MIT",
-  "homepage": "https://github.com/Groozly/JS-Cookie#readme",
+  "homepage": "https://github.com/delfimov/JS-Cookie#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Groozly/JS-Cookie.git"
+    "url": "git+https://github.com/delfimov/JS-Cookie.git"
   },
   "scripts": {
   },
@@ -16,7 +16,7 @@
     "url": "https://www.elfimov.ru/"
   },
   "bugs": {
-    "url": "https://github.com/Groozly/JS-Cookie/issues"
+    "url": "https://github.com/delfimov/JS-Cookie/issues"
   },
   "devDependencies": {
   },

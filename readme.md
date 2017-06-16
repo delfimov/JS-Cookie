@@ -36,4 +36,4 @@ return cookie value or null if not set
 
 `cookie.isEnabled();`
 
-true or false
+`true` or `false`
