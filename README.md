@@ -2,6 +2,12 @@
 
 Javascript Cookie library
 
+## Install
+
+```
+npm install js_cookie
+```
+
 ## Usage
 
 ```javascript
