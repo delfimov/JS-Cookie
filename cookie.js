@@ -1,5 +1,5 @@
 /*
- * cookie javascript library 
+ * Cookie javascript library
  * https://github.com/delfimov/JS-Cookie
  *
  * Copyright (c) 2011 by Dmitry Elfimov
