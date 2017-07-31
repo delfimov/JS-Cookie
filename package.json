@@ -6,7 +6,7 @@
   "homepage": "https://github.com/delfimov/JS-Cookie#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/delfimov/JS-Cookie.git"
+    "url": "git@github.com:delfimov/JS-Cookie.git"
   },
   "scripts": {
   },
